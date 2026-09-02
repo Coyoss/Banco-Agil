@@ -315,7 +315,7 @@ Como obter uma API Key da Groq
     Meu Projeto Python
 6. Clique para criar a chave.
 7. Copie a API Key gerada e coloque na variavel
-   GROK_API_KEY
+   GROQ_API_KEY
 ### 1. Instalação
 
 ```bash
