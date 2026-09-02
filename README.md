@@ -303,8 +303,8 @@ banco-agil/
 ## 🚀 Tutorial de Execução e Testes
 Site utilizado para pegar a API-key
 https://console.groq.com/
-estou enviando o projeto ja com uma key no .env , caso deseje 
-alterar,fique avontade para criar uma propia
+será necessário a criação da propia key,
+na aba de API Keys do site,e introduzir no .env
 ### 1. Instalação
 
 ```bash
