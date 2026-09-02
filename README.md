@@ -308,9 +308,11 @@ alterar,fique avontade para criar uma propia
 ### 1. Instalação
 
 ```bash
+#No git bash
 git clone https://github.com/Coyoss/Banco-Agil.git
+#No PowerShell
 cd banco-agil
-python -m venv .venv
+python -m venv .venv ou py -m venv .venv
 .venv\Scripts\activate   
 #Caso ocorra erro ao iniciar o .venv rode esse comando 
 #(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned)
@@ -320,7 +322,10 @@ pip install -r requirements.txt
 ### 2. Executando a aplicação
 
 ```bash
-streamlit run app.py
+# Após a inicialização e a instalação das bibliotecas no `.venv` ou no sistema,
+# execute o seguinte comando no terminal:
+
+--> streamlit run app.py
 ```
 
 Acesse `http://localhost:8501` no navegador.
