@@ -303,8 +303,19 @@ banco-agil/
 ## 🚀 Tutorial de Execução e Testes
 Site utilizado para pegar a API-key
 https://console.groq.com/
-será necessário a criação da propia key,
-na aba de API Keys do site,e introduzir no .env
+será necessário a criação da própria key.
+
+Como obter uma API Key da Groq
+
+1. Acesse o site da GroqCloud⁠￼.
+2. Faça login ou crie uma conta gratuitamente.
+3. Após entrar no painel, procure pela opção API Keys.
+4. Clique em Create API Key.
+5. Dê um nome para a sua chave, por exemplo:
+    Meu Projeto Python
+6. Clique para criar a chave.
+7. Copie a API Key gerada e coloque na variavel
+   GROK_API_KEY
 ### 1. Instalação
 
 ```bash
